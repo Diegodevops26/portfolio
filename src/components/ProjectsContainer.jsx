@@ -1,24 +1,25 @@
 const ProjectsContainer = () => {
-    return (
-      <section className="projects-container">
-        <h2>Projetos</h2>
-        <p>
-        O Aluroni é o projeto do curso React: lidando com arquivos estáticos da alura, nesse curso nós aprendemos como:
-
-        Criar um projeto do zero com Create React App.
-        Utilizar o normalize.css para resetar estilos padrões de navegadores.
-        Configurar o absolute imports para não precisar mais importar arquivos com vários níveis.
-        Boas práticas em CSS, como criar variáveis, criar arquivos para estas variáveis e para breakpoints de media-queries.
-        Utilizar o pacote classnames para poder utilizar o CSS Modules sem precisar concatenar um monte de estilos CSS e lidar com estilos condicionais.
-        Utilizar o SVGR, um pacote que vem no Create React App para importar svgs como componentes React.
-        Como o React entende os imports estáticos tanto via arquivos .js quanto em arquivos de estilos como .scss ou .css.
-        Aprenda como importar arquivos estáticos como variáveis via js ou utilizando a pasta public para imports dinâmicos de arquivos estáticos.
-        </p>
-        <a href="https://github.com/Diegodevops26/Aluroni" className="btn">
-          Ver Projetos
-        </a>
-      </section>
-    );
-  };
+  return (
+    <section className="projects-container">
+      <h2>Projetos</h2>
+      <p className="description">
+        O Aluroni é um projeto desenvolvido durante o curso React da Alura. Neste curso, foram abordados os seguintes tópicos:
+      </p>
+      <ul className="topics-list">
+        <li>Criar um projeto do zero com Create React App.</li>
+        <li>Utilizar o normalize.css para resetar estilos padrões de navegadores.</li>
+        <li>Configurar o absolute imports para facilitar a importação de arquivos.</li>
+        <li>Boas práticas em CSS, incluindo o uso de variáveis e breakpoints de media-queries.</li>
+        <li>Utilização do pacote classnames para facilitar o uso de CSS Modules e estilos condicionais.</li>
+        <li>Importar svgs como componentes React usando o SVGR.</li>
+        <li>Como o React entende os imports estáticos em arquivos.js,.scss ou.css.</li>
+        <li>Importar arquivos estáticos como variáveis via js ou utilizando a pasta public.</li>
+      </ul>
+      <a href="https://github.com/Diegodevops26/Aluroni" className="btn btn-primary">
+        Ver Projeto no GitHub
+      </a>
+    </section>
+  );
+};
   
   export default ProjectsContainer;
