@@ -3,7 +3,7 @@ const AboutContainer = () => {
       <section className="about-container">
         <h2>Sobre</h2>
         <p>
-         Olá meu nome é Diego Santos, tenho 29 anos, sou estudante de Análise e Desenvolvimento de Sistemas,
+         Olá meu nome é Diego Santos, tenho 30 anos, sou estudante de Análise e Desenvolvimento de Sistemas,
          prestes a concluir meu último período acadêmico. Minha jornada de aprendizado não se limita às salas de aula, 
          pois estou constantemente buscando oportunidades para me aprimorar e me manter atualizado no mundo da tecnologia.
         </p>
