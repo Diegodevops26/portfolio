@@ -2,10 +2,8 @@ const ProjectsContainer = () => {
   return (
     <section className="projects-container">
       <h2>Projetos</h2>
-      <p className="description">
+        <p>
         O Aluroni é um projeto desenvolvido durante o curso React da Alura. Neste curso, foram abordados os seguintes tópicos:
-      </p>
-      <ul className="topics-list">
         <li>Criar um projeto do zero com Create React App.</li>
         <li>Utilizar o normalize.css para resetar estilos padrões de navegadores.</li>
         <li>Configurar o absolute imports para facilitar a importação de arquivos.</li>
@@ -14,7 +12,7 @@ const ProjectsContainer = () => {
         <li>Importar svgs como componentes React usando o SVGR.</li>
         <li>Como o React entende os imports estáticos em arquivos.js,.scss ou.css.</li>
         <li>Importar arquivos estáticos como variáveis via js ou utilizando a pasta public.</li>
-      </ul>
+       </p>
       <a href="https://github.com/Diegodevops26/Aluroni" className="btn btn-primary">
         Ver Projeto no GitHub
       </a>
