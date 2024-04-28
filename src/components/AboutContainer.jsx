@@ -8,7 +8,7 @@ const AboutContainer = () => {
          pois estou constantemente buscando oportunidades para me aprimorar e me manter atualizado no mundo da tecnologia.
         </p>
         <p>
-        Atualmente, estou focado no desenvolvimento com ForntEnd, uma tecnologia que me fascina e que estou aperfeiçoando com dedicação. 
+        Atualmente, estou focado no desenvolvimento com FrontEnd, uma tecnologia que me fascina e que estou aperfeiçoando com dedicação. 
         Minha paixão pela programação e meu compromisso com o aprendizado contínuo são os motores que impulsionam minha jornada profissional. 
         </p>
       </section>
