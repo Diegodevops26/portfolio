@@ -14,3 +14,14 @@
         background: variables.$gradient
         -webkit-background-clip: text
         -webkit-text-fill-color: transparent
+
+ h1
+  /* Outras propriedades existentes */
+  position: relative
+  animation: moveText 4s infinite alternate
+
+@keyframes moveText
+  0%
+    transform: translateX(0)
+  100%
+    transform: translateX(20px) /* Ajuste a distância e direção conforme necessário */
