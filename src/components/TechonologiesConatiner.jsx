@@ -5,6 +5,7 @@ import {
     DiNodejsSmall,
     DiMysql,
     DiReact,
+    DiSwagger,
   } from "react-icons/di";
   
   import '../styles/components/technologiescontainer.sass';
@@ -16,6 +17,7 @@ import {
     { id: "node", name: "Node.js", icon: <DiNodejsSmall />, description: "Ambiente de execução JavaScript para criar aplicações server-side" },
     { id: "mysql", name: "MySQL", icon: <DiMysql />, description: "Sistema de gerenciamento de banco de dados relacional" },
     { id: "react", name: "React", icon: <DiReact />, description: "Biblioteca JavaScript para criar interfaces de usuário" },
+    { id: "swagger", name: "Swagger", icon:<DiSwagger/>, description:"basicamente, um conjunto de ferramentas que nos ajuda a fazer o design, ou seja, fazer a modelagem, a documentar e até gerar código para desenvolvimento de APIs." },
   ];
   
   const TechnologiesContainer = () => {
