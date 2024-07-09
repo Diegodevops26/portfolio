@@ -11,6 +11,13 @@
     background: variables.$gradient
     text-decoration: none
     border-radius: 3rem
+    animation: coresDancantes 2s linear infinite
+    @keyframes coresDancantes
+        0%
+            filter: hue-rotate(0deg)
+
+        100%
+            filter: hue-rotate(360deg)
 
 @mixin gradient-border
     content: ""
