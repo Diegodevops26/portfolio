@@ -16,6 +16,11 @@
         border: 1px solid #333
         width: 45%
         border-radius: variables.$card-border-radius 
+        transition: box-shadow 0.3s, transform 0.3s
+
+	&:hover
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
+		transform: transitionY(-5px)
 
         h3
             color: variables.$text-color
