@@ -1,5 +1,6 @@
 import React from 'react';
 import aluroniImage from '../img/aluroni.jfif';
+import AnotherProject from './AnotherProject'; // Importando o novo componente
   const ProjectsContainer = () => {
   return (
     <section className="projects-container">
