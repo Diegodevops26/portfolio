@@ -1,5 +1,6 @@
 import React from 'react';
-import countriesImage from '../img/countries.jfif'; // Imagem do projeto
+import countriesImage from '../img/115600640.png'; // Imagem do projeto
+
 
 const AnotherProject = () => {
   return (
@@ -15,7 +16,7 @@ const AnotherProject = () => {
           <li>Funcionalidade de busca e exibição de países que fazem fronteira.</li>
         </ul>
       </p>
-      <a href="https://github.com/SeuUsuario/ListaDePaises" className="btn">
+      <a href="https://github.com/Diegodevops26/mp-lista-de-paises-next" className="btn">
         Ver Projeto no GitHub
       </a>
     </div>
